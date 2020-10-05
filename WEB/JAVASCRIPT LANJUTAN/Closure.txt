@@ -1,0 +1,8 @@
+closure : merupakan kombinasi antara function dan lingkungan leksikal (lexical scope) di dalam function tersebut (MDN)
+
+closure : sebuah function ketika memiliki akses ke parent scope-nya, meskipun parent scope-nya sudah selesai di eksekusi. (w3school)
+
+closure : sebuah function dikembalikan oleh function yang lain, yang memiliki akses ke lingkungan saat ia diciptakan.(code fellow)
+
+closure : sebuah function yang sebelumnya sudah memiliki data hasil dari function yang lain.(Techsith)
+

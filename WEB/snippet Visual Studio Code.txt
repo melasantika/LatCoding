@@ -1,0 +1,32 @@
+1. snippet HTML
+"PHP tag": {
+		"prefix": "php",
+		"body": "<?php $1 ?>"
+	},
+	"Inline echo": {
+		"prefix": "phpp",
+		"body": "<?= $$1; ?>"
+	},
+	"Input Label": {
+		"prefix": "formel",
+		"body": [
+			"<label for=\"${2:username}\">${3:Username}</label>",
+			"<input type=\"${1:text}\" name=\"${2:username}\" id=\"${2:username}\">"
+		]
+	},
+	"my Form": {
+		"prefix": "myform",
+		"body": "<form method=\"${1|get,post|}\" action=\"$2\">$3</form>"
+	}
+
+2. snippet Javascript
+"Print to console": {
+		"prefix": "clog",
+		"body": "console.log($1);"
+	}
+
+3. snippet PHP
+"$this in codeigniter": {
+		"prefix": "this",
+		"body": "\\$this->$1->$2('$3');$0"
+	}
