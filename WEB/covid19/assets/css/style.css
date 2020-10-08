@@ -1,0 +1,17 @@
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    margin-top: -20px;
+}
+
+.carousel-item .display-4 {
+    margin-top: -240px;
+}
+
+.carousel-item .display-5 {
+    margin-top: -240px;
+
+}
